@@ -82,19 +82,8 @@ For this reason, being that, in the end, the overall bit generation is indeed pa
 
 Having defined the entire architecture, and having also assessed its computational performance, we are left with the evaluation of the quality of randomness of generated bits. Here, with the term ”quality”, we refer to the desired feature of uniformity of probability distribution, as well as unpredictability of sequences. 
 
-To benchmark those aspects, multiple runs of the bit generation process have been executed under a fixed hardware environment (i.e., as it can be imagined, a precise physical distance must be set between the Beam Splitter and the LDRs, in order to match the overall intensity of the light inciding on the sensors), then, the output bits dumped to the ZOC8 terminal were exported outside of the main development environment to a Python script to ease the plotting of the gathered data.
+To benchmark those aspects, multiple runs of the bit generation process have been executed under a fixed hardware environment (i.e., as it can be imagined, a precise physical distance must be set between the Beam Splitter and the LDRs, in order to match the overall intensity of the light inciding on the sensors), then, the output bits dumped to the ZOC8 terminal were exported outside of the main development environment to a Python script to ease the plotting of the gathered data. Plots of the obtained results can be consulted in the "Benchmark" section of the documentation.pdf file.
 
-The first test, whose output is depicted in the Figure below involves a the simple generation of a random
-bit stream to analyze the frequency of 0s and 1s, which we indeed observe being roughly 50/50 split
-between the two, as we would expect.
-
-![test1](./imgs/graph1.png)
-
-As a second test, 1024 generated bits were grouped 8 at a time, and interpreted as a singlebyte
-number. Then, just as before, the frequency of each number was plotted (Figure below), again
-displaying a distribution somewhat alike to a uniform one.
-
-![test2](./imgs/graph2.png)
 
 ## Code Navigation
 

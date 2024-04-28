@@ -230,7 +230,7 @@ FF CONSTANT BYTEMASK
 \*                                                                               *\
 \* The following definitions serve the purpose of aiding the manipulation of     *\
 \* both the Forth stack and the BCM2711 registers.                               *\
-\*                                                                               *\                                 *\
+\*                                                                               *\
 \* The motivation behind the usage of each of those words is explained prior     *\
 \* to each of them.                                                              *\
 \*                                                                               *\
