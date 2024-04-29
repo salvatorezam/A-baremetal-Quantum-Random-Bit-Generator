@@ -40,19 +40,19 @@ On the breadboard, an half-interferometer configuration is built, where a Laser 
 
 The Hardware tools used to implement the baremetal QRBG are listed below:
 
- * Raspberry Pi 4B as main controller
- * CP2102 USB-to-TTL module for UART communication
- * 650nm, 5mW Laser Diode as photon sorce
- * 50/50 Beam Splitter prism to deviate the laser beam
- * 2 Light-Dependent Resistors for readout
- * Adafruit ADS1115 ADC module to digitalize the LDR analog inputs
+ * __[Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)__ as main controller
+ * __[CP2102 USB-to-TTL](https://futuranet.it/prodotto/convertitore-da-usb-a-ttl-con-cp2102/)__ module for UART communication
+ * 650nm, 5mW __[Laser Diode](https://www.ebay.it/itm/165735697029?chn=ps&norover=1&mkevt=1&mkrid=724-128315-5854-1&mkcid=2&mkscid=101&itemid=165735697029&targetid=1827389197184&device=c&mktype=pla&googleloc=1008588&poi=&campaignid=17955385566&mkgroupid=142692416071&rlsatarget=pla-1827389197184&abcId=9301109&merchantid=116456949&gad_source=1&gclid=EAIaIQobChMIlbDm2snnhQMVU6qDBx2VYwFgEAQYBiABEgJGLvD_BwE)__ as photon sorce
+ * __[50/50 Beam Splitter](https://www.amazon.it/Generico-Beam-Splitter-Cube-Ratio/dp/B0CPSFHRZ3?th=1)__ prism to deviate the laser beam
+ * 2 __[Light-Dependent Resistors](https://ai.thestempedia.com/docs/evive/evive-tutorials/what-is-ldr-photoresistor/)__ for readout
+ * __[Adafruit ADS1115 ADC module](https://www.ti.com/product/ADS1115?utm_source=google&utm_medium=cpc&utm_campaign=asc-dc-null-44700045336317134_prodfolderdynamic-cpc-pf-google-wwe_int&utm_content=prodfolddynamic&ds_k=DYNAMIC+SEARCH+ADS&DCM=yes&gad_source=1&gclid=EAIaIQobChMI97LD9srnhQMVrzoGAB10QAs7EAAYAiAAEgIudfD_BwE&gclsrc=aw.ds)__ to digitalize the LDR analog inputs
  * Breadboard, T-Cobbler extension and Jumper Wires for connections
 
 Software tools are instead as follows:
 
- * ZOC8 as terminal interface between the development machine and main controller
- * pijFORTHos as baremetal FORTH interpreter for the Raspberry Pi
- * FORTH language to program the controller on hardware level
+ * __[ZOC8](https://www.download3k.com/Install-ZOC.html)__ as terminal interface between the development machine and main controller
+ * __[pijFORTHos](https://github.com/organix/pijFORTHos)__ as baremetal FORTH interpreter for the Raspberry Pi
+ * __[FORTH](https://www.forth.com/)__ language to program the controller on hardware level
 
 
 ## Configuration
